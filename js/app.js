@@ -111,7 +111,7 @@ quickAdds.forEach(function (add) {
         let book_item =
         `
         <li class="header__cart-item">
-            <img src="/assets/images/template/cart-3.jpg" alt=""
+            <img src="./assets/images/template/cart-3.jpg" alt=""
                 class="header__cart-item-img">
             <div class="header__cart-item-info">
                 <div class="header__cart-item-head">
