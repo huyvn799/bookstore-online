@@ -1,0 +1,252 @@
+/* Home CSS */
+/* App container */
+section {
+	margin: 0 20px;
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination {
+	--swiper-theme-color: #000;
+	color: var(--swiper-theme-color);
+}
+
+/* Banner Large */
+.banner-large-container {
+	margin: 10px 0;
+}
+
+.banner-large-container .swiper-button-prev,
+.banner-large-container .swiper-button-next,
+.banner-large-container .swiper-pagination {
+	--swiper-theme-color: #000;
+	color: var(--swiper-theme-color);
+}
+
+.banner-small__link,
+.banner-large__link {
+	display: block;
+	text-decoration: none;
+	color: var(--text-color);
+	position: relative;
+}
+
+.banner-small__img,
+.banner-large__img {
+	width: 100%;
+	max-height: 550px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.banner-large__quote {
+	width: 40%;
+	height: 83%;
+	padding: 0 2%;
+	margin: 0;
+	position: absolute;
+	top: 10%;
+	left: 5%;
+}
+
+.banner-large__quote.quote-right {
+	right: 5%;
+	left: auto;
+}
+
+.banner-large__quote-quote {
+	font-family: "Fraunces", serif;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 2.4vw;
+	line-height: 1.4;
+}
+
+.banner-large__quote-source {
+	font-size: 1.8vw;
+}
+
+.category-container {
+	padding: 30px 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin: 30px 0;
+}
+
+.category-slider {
+	/* padding: 30px 0; */
+}
+
+.category-slider__list {}
+
+.category-slider__item {
+	/* margin-left: 30px; */
+	/* flex-basis: 300px; */
+
+}
+
+.category-slider__item:hover .category-slider__link {
+	text-decoration: underline;
+}
+
+.category-slider__link {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	margin: 0 10px 0 40px;
+}
+
+.category-slider__img {
+	max-height: 100px;
+	text-align: center;
+}
+
+.category-slider__quote {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	color: var(--black-color);
+}
+
+/* Banner medium */
+.banner-medium-container .swiper-button-prev,
+.banner-medium-container .swiper-button-next {
+	--swiper-theme-color: #fff;
+	color: var(--swiper-theme-color);
+}
+
+.banner-medium-container {
+	padding: 60px 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin: 30px 0;
+}
+
+.banner-medium-slider {}
+
+.banner-medium__list {}
+
+.banner-medium__item {
+	width: 50%;
+}
+
+.banner-medium__link {
+	text-decoration: none;
+}
+
+.banner-medium__img {
+	display: flex;
+}
+
+.banner-medium__img img {
+	max-width: 100%;
+	width: 100%;
+		margin: auto;
+		/* max-height: 400px; */
+}
+
+.banner-medium__quote {
+	text-align: center;
+	color: var(--black-color);
+}
+
+.banner-medium__quote-quote {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+}
+
+.banner-medium__quote-source {
+	font-size: 1.4rem;
+	text-decoration: underline;
+}
+
+.book-container {
+
+}
+
+.book-slider__heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.book-slider__title {
+	font-family: "Fraunces", sans-serif;
+	font-size: 3rem;
+	font-style: italic;
+	line-height: 1.4;
+	font-weight: 500;
+}
+
+.book-slider__heading a {
+	display: inline-block;
+	font-size: 1.4rem;
+	color: var(--black-color);
+}
+
+.book-slider__heading a:hover {
+	color: var(--primary-color);
+}
+
+.book-slider__list {
+	/* margin: 0 50px; */
+}
+
+.shop-info {
+	padding: 60px 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.shop-info__text {
+}
+
+.shop-info__text-heading {
+	font-family: "Fraunces", sans-serif;
+	font-size: 3rem;
+	font-style: italic;
+	line-height: 1.4;
+	font-weight: 600;
+	margin: 0;
+}
+
+.shop-info__text-description {
+	font-size: 1.6rem;
+	line-height: 1.4;
+}
+
+.shop-info__text-description b {
+	font-size: 1.8rem;
+}
+
+.shop-info__text-btn {
+	display: inline-block;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	padding: 15px 20px;
+	font-size: 1.8rem;
+	margin-right: 10px;
+	background-color: var(--primary-color);
+	color: var(--white-color);
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+.shop-info__text-btn:hover {
+	background-color: var(--secondary-color);
+}
+
+.shop-info__img {
+	/* padding: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	width: 90%; */
+}
+
+.shop-info__img img {
+	object-fit: contain;
+	object-position: center;
+	width: 100%;
+}

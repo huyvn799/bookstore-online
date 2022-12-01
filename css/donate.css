@@ -1,0 +1,153 @@
+body {
+	font-size: 1.5rem;
+	line-height: 2.25rem;
+}
+
+@media (max-width: 1000px) {
+	.section {
+		text-align: center;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media (max-width: 739px) {
+	.section__steps,
+	.section__achievements {
+		flex-direction: column;
+		align-items: center;
+	}
+	.section__steps__item__number {
+		margin: 0;
+	}
+	.section__achievements__item__number {
+		line-height: 5rem;
+		margin: 0;
+	}
+}
+
+.section {
+	margin-bottom: 50px;
+}
+
+.section .section__header {
+	font-size: 3rem;
+	line-height: 3rem;
+	font-family: "Fraunces", sans-serif;
+	margin-bottom: 30px;
+}
+
+.section .section__info {
+	margin-bottom: 20px;
+}
+
+.section .section__steps,
+.section .section__achievements {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.section .section__steps .section__steps__item,
+.section__achievements__item {
+	position: relative;
+	width: 150px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section__steps .section__steps__item .section__steps__item__number {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	border-radius: 50%;
+	font-size: 5rem;
+	font-family: "Fraunces", sans-serif;
+	background: var(--primary-color);
+	color: var(--white-color);
+	margin-top: 20px;
+}
+
+.section__steps .section__steps__item .section__steps__item__info,
+.section__achievements__item__info {
+	font-weight: bold;
+	font-size: 1.6rem;
+}
+
+.section__achievements__item__number {
+	font-size: 4.2rem;
+	font-family: "Fraunces", sans-serif;
+	color: var(--primary-color);
+	line-height: 4.2rem;
+}
+
+.section .section__form {
+	max-width: 500px;
+	margin: auto;
+}
+
+.section__form .form-group .form-group__input {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	text-transform: capitalize;
+	font-size: 1.3rem;
+	padding: 10px 15px;
+	margin-bottom: 15px;
+}
+
+.section__form .form-submit {
+	color: var(--white-color);
+	background: var(--primary-color);
+	font-size: 1.5rem;
+	padding: 10px 15px;
+	margin-top: 30px;
+	border: none;
+	transition: 0.3s;
+}
+
+.section__form .form-submit:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.section .section__header--clickable {
+	cursor: pointer;
+}
+
+.section .section__question {
+	display: none;
+}
+
+.fa-chevron-down,
+.fa-chevron-up {
+	font-size: 1.5rem;
+}
+
+.fa-chevron-up {
+	display: none;
+}
+
+label {
+	display: block;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+textarea {
+	width: 700px;
+	height: 200px;
+	margin-bottom: 15px;
+	resize: vertical;
+}
+
+.section__question__form__input {
+	display: block;
+	padding: 10px 15px;
+	background: var(--primary-color);
+	color: var(--white-color);
+	border: none;
+}

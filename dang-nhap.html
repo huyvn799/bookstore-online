@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập - dulariru</title>
+
+    <!-- ICON FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS RESET -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon_dulariru.ico">
+    <link rel="stylesheet" href="/css/base.css">
+
+    <!-- CSS GRID SYSTEM -->
+    <link rel="stylesheet" href="/css/grid.css">
+
+    <!-- CSS for PAGE -->
+    <link rel="stylesheet" href="/css/template.css">
+
+    <!-- Copy link style của page -->
+    <!-- CSS for Login page -->
+    <link rel="stylesheet" href="/css/login.css">
+    
+    <link rel="stylesheet" href="/css/responsive.css">
+</head>
+
+<body>
+    <!-- Block Element Modifier -->
+    <div class="app">
+
+        <header class="header-alternative">
+            <img src="/assets/images/logo_size.jpg" alt="dulariru logo" class="header-login__logo-img">
+        </header>
+
+        <!-- Viết code -->
+        <div class="app__login">
+            <div class="auth-container">
+                
+                <div class="row grid">
+                    <div class="col l-4 m-12 c-12">
+                        <form id="auth" action="/" method="POST" class="auth-form disappear">
+                            <div class="auth-form__header">
+                                <h2>Đăng nhập</h2>
+                            </div>
+    
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Số điện thoại hoặc tài khoản">
+                            </div>
+                            <div class="auth-form__group">
+                                <input id="password" type="password" class="auth-form__input" placeholder="Mật khẩu">
+                                <i onclick="showPassword()" class="far fa-eye"></i>
+    
+                            </div>
+    
+                            <div class="auth-form__button">
+                                <a href="index.html" class="auth-form__auth-button" type="submit" >Đăng nhập</a>
+                            </div>
+    
+                            <div class="auth-form__options">
+                                <a href="javascsript:void(0)">Quên mật khẩu?</a>
+                                <a href="javascsript:void(0)">Đăng nhập với SMS</a>
+                            </div>
+    
+    
+                            <span class="style-text">Hoặc</span>
+    
+                            <ul class="auth-form__socials">
+                                <li class="auth-form__socials__item facebook">
+                                    <a href="javascsript:void(0)">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                </li>
+                                <li class="auth-form__socials__item google">
+                                    <a href="javascsript:void(0)">
+                                        <i class="fab fa-google"></i>
+                                        <span>Google</span>
+                                    </a>
+                                </li>
+                            </ul>
+    
+                            <div class="auth-form__footer">
+                                <p>Bạn chưa có tài khoản? <a href="/dang-ky.html">Đăng ký ngay!</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="app__footer">
+            <div class="grid wide">
+                <div class="row footer__top">
+                    <div class="col l-9 m-12 c-12">
+                        <div class="row">
+                            <div class="col l-3 m-3 c-12">
+                                <span class="footer-link__heading">Danh mục phổ biến</span>
+                                <ul class="footer-link__list">
+                                    <div class="row">
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="javascript:void(0)" class="footer-link__link">Trẻ em</a>
+                                            </li>
+                                        </div>
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="javascript:void(0)" class="footer-link__link">Tuổi mới lớn</a>
+                                            </li>
+                                        </div>
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="javascript:void(0)" class="footer-link__link">Lãng mạn</a>
+                                            </li>
+                                        </div>
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="javascript:void(0)" class="footer-link__link">Bí ẩn kỳ bý</a>
+                                            </li>
+                                        </div>
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="javascript:void(0)" class="footer-link__link">Khoa học viễn tưởng</a>
+                                            </li>
+                                        </div>
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="javascript:void(0)" class="footer-link__link">Văn học giả tưởng</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                            <div class="col l-3 m-3 c-12">
+                                <span class="footer-link__heading">Trang web của chúng tôi</span>
+                                <ul class="footer-link__list">
+                                    <div class="row">
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="/blog.html" class="footer-link__link">Blog</a>
+                                            </li>
+                                        </div>
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="/ve-chung-toi.html" class="footer-link__link">Về chúng tôi</a>
+                                            </li>
+                                        </div>
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="/quyen-gop.html" class="footer-link__link">Quyên góp</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                            <div class="col l-3 m-3 c-12">
+                                <span class="footer-link__heading">Tài khoản</span>
+                                <ul class="footer-link__list">
+                                    <div class="row">
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="javascript:void(0)" class="footer-link__link">Cài đặt</a>
+                                            </li>
+                                        </div>
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="/gio-hang.html" class="footer-link__link">Giỏ hàng</a>
+                                            </li>
+                                        </div>
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="javascript:void(0)" class="footer-link__link">Lịch sử đặt hàng</a>
+                                            </li>
+                                        </div>
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="javascript:void(0)" class="footer-link__link">Danh sách mong muốn</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                            <div class="col l-3 m-3 c-12">
+                                <span class="footer-link__heading">Trợ giúp nhanh</span>
+                                <ul class="footer-link__list">
+                                    <div class="row">
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="javascript:void(0)" class="footer-link__link">Hỗ trợ</a>
+                                            </li>
+                                        </div>
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="javascript:void(0)" class="footer-link__link">Phí giao hàng</a>
+                                            </li>
+                                        </div>
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="javascript:void(0)" class="footer-link__link">Hóa đơn</a>
+                                            </li>
+                                        </div>
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="javascript:void(0)" class="footer-link__link">Chính sách đổi trả</a>
+                                            </li>
+                                        </div>
+                                        <div class="col l-12 m-12 c-6">
+                                            <li class="footer-link__item">
+                                                <a href="javascript:void(0)" class="footer-link__link">Liên hệ chúng tôi</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+        
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12 l-o-0 m-o-3">
+                        <div class="footer-input">
+                            <span class="footer-input__heading">Đăng ký để nhận thông tin mới nhất</span>
+                            <div class="footer-input__wrapper">
+                                <input class="footer-input__input" type="email" placeholder="Địa chỉ email">
+                                <button class="footer-input__submit">Gửi</button>
+                            </div>
+                            <p class="footer-input__description">Đăng ký emails của bạn để nhận thông tin mới nhất từ Dulariru
+                                Chính sách bảo mật <a href="javascript:void(0)">tại đây</a>.</p>
+                        </div>
+                        <div class="footer-link-icon">
+                            <span class="footer-link-icon__heading">Theo dõi chúng tôi qua</span>
+                            <ul class="footer-link-icon__list">
+                                <li class="footer-link-icon__item">
+                                    <a href="javascript:void(0)" class="footer-link-icon__link">
+                                        <i class="footer-link-icon__icon fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="footer-link-icon__item">
+                                    <a href="javascript:void(0)" class="footer-link-icon__link">
+                                        <i class="footer-link-icon__icon fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="footer-link__item">
+                                    <a href="javascript:void(0)" class="footer-link-icon__link">
+                                        <i class="footer-link-icon__icon fab fa-pinterest-p"></i>
+                                    </a>
+                                </li>
+                                <li class="footer-link__item">
+                                    <a href="javascript:void(0)" class="footer-link-icon__link">
+                                        <i class="footer-link-icon__icon fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <ul class="footer-legal__list">
+                        <li class="footer-legal__item">
+                            <a href="javascript:void(0)" class="footer-legal__link">Điều khoản sử dụng</a>
+                        </li>
+                        <li class="footer-legal__item">
+                            <a href="javascript:void(0)" class="footer-legal__link">Chính sách bảo mật</a>
+                        </li>
+                        <li class="footer-legal__item">
+                            <a href="javascript:void(0)" class="footer-legal__link">Không được bán thông tin cá nhân của chúng tôi dưới bất kỳ hình thức nào</a>
+                        </li>
+                        <li class="footer-legal__item">
+                            <a href="javascript:void(0)" class="footer-legal__link">Khả năng truy cập</a>
+                        </li>
+                    </ul>
+                    <p class="footer-copyright">Copyright &copy; 2022 Dulariru</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/js/include-html.js"></script>
+    <script src="/js/login.js"></script>
+</body>
+
+</html>

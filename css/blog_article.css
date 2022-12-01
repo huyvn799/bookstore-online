@@ -1,0 +1,140 @@
+@media only screen and (max-width: 1023px) {
+	.app__blog {
+		margin-top: 10px;
+		padding: 0 10px;
+	}
+	.related-posts__item img{
+		width: 200px;
+	}
+}
+
+p {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+.article__header {
+	margin-bottom: 30px;
+}
+.article__header img {
+	width: 100%;
+}
+
+.article__body__summary {
+	margin-bottom: 40px;
+	border-bottom: 0.5px solid var(--border-color-grey);
+}
+
+.article__body .article__body__summary .article__body__heading {
+	font-size: 5rem;
+	line-height: 5.5rem;
+	font-family: "Fraunces", sans-serif;
+	color: var(--primary-color);
+}
+
+.article__body .article__body__summary .article__body__author {
+	font-size: 1.8rem;
+}
+
+.article__body__socials .article__body__socials__link {
+	text-decoration: none;
+	color: var(--white-color);
+	padding: 10px 15px;
+	margin-right: 5px;
+	width: 50px;
+	display: inline-block;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.article__body__socials .article__body__socials__link:hover {
+	opacity: 0.8;
+}
+
+.article__body__socials .facebook {
+	background: #34518d;
+}
+
+.article__body__socials .twitter {
+	background: #0c85d0;
+}
+
+.article__body__socials .pinterest {
+	background: #a01a1f;
+}
+
+.article__body__socials .share {
+	background: var(--primary-color);
+}
+
+.article__body__content .article__body__sub-heading {
+	font-size: 2rem;
+	font-family: "Fraunces", sans-serif;
+	line-height: 3.5rem;
+	margin-bottom: 1rem;
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+.article__body__content .article__body__sub-heading a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+.article__body__content .article__body__sub-heading a:hover {
+	text-decoration: underline;
+}
+
+.suggestions {
+	margin-top: 50px;
+}
+
+.related-posts__heading {
+	font-size: 2rem;
+	font-family: "Fraunces", sans-serif;
+	margin-top: 50px;
+}
+
+.related-posts {
+	/* display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-top: 30px; */
+}
+
+.related-posts .row {
+	overflow-x: auto;
+	flex-wrap: nowrap;
+}
+
+.related-posts__item {
+	text-decoration: none;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.related-posts__item__img {
+	width: 100%;
+}
+
+.related-posts__item__title {
+	color: var(--text-color);
+	font-size: 1.8rem;
+}
+
+@media (max-width: 1023px) {
+	.article__body .article__body__summary {
+		text-align: center;
+	}
+	.article__body .article__body__summary .article__body__heading {
+		font-size: 3rem;
+		line-height: 3.5rem;
+	}
+}
+
+.product__info__more-series__list .row{
+	overflow-x: auto;
+	flex-wrap: nowrap;
+}

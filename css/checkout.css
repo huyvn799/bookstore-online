@@ -1,0 +1,33 @@
+.section {
+    background-color: #f9f8f4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section__heading {
+    font-size: 2.4rem;
+    line-height: 1.4;
+    margin-top: 0;
+}
+
+.section input, .section select {
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+
+.section input[type="radio"] {
+    width: initial;
+    font-size: 2rem;
+}
+
+.section label {
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+
+.section .shopping-cart__list__item {
+    padding-left: 0;
+    padding-right: 0;
+}
