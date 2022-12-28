@@ -666,6 +666,16 @@
     color: var(--black-color);
 }
 
+.header__mobile-menu-heading a {
+	color: var(--black-color);
+	text-decoration: none;
+}
+
+.header__mobile-menu-heading a:hover {
+	color: var(--primary-color);
+	text-decoration: underline;
+}
+
 .header__mobile-menu-heading i[class*="up"] {
 	display: block;
 }
