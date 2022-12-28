@@ -3,7 +3,7 @@ p {
 	line-height: 2rem;
 }
 .about__header {
-	background: url("/assets/images/about/cover.jpg");
+	background: url("/bookstore-online/assets/images/about/cover.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
